@@ -11,7 +11,6 @@ export default {
   },
   argTypes: {
     size: {
-      options: ["sm", "md", "lg"],
       control: {
         type: "inline-radio",
       },
@@ -36,10 +35,15 @@ export const Large: StoryObj<IText> = {
 export const CustomComponent: StoryObj<IText> = {
   args: {
     asChild: true,
-    children: <p>Custom tag</p>,
+    children: <p>Text with p tag.</p>,
   },
   argTypes: {
     children: {
+      table: {
+        disable: true,
+      },
+    },
+    asChild: {
       table: {
         disable: true,
       },
