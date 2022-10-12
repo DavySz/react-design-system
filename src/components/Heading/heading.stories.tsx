@@ -1,12 +1,12 @@
-import { Text } from ".";
+import { Heading } from ".";
 import { Meta, StoryObj } from "@storybook/react";
-import { IText } from "./types";
+import { IHeading } from "./types";
 
 export default {
-  title: "Components/Text",
-  component: Text,
+  title: "Components/Heading",
+  component: Heading,
   args: {
-    children: "Lorem ipsum",
+    children: "Lorem ipsum.",
     size: "md",
   },
   argTypes: {
@@ -16,26 +16,26 @@ export default {
       },
     },
   },
-} as Meta<IText>;
+} as Meta<IHeading>;
 
-export const Default: StoryObj<IText> = {};
+export const Default: StoryObj<IHeading> = {};
 
-export const Small: StoryObj<IText> = {
+export const Small: StoryObj<IHeading> = {
   args: {
     size: "sm",
   },
 };
 
-export const Large: StoryObj<IText> = {
+export const Large: StoryObj<IHeading> = {
   args: {
     size: "lg",
   },
 };
 
-export const CustomComponent: StoryObj<IText> = {
+export const CustomComponent: StoryObj<IHeading> = {
   args: {
     asChild: true,
-    children: <p>Text with p tag.</p>,
+    children: <h1>Heading with h1 tag.</h1>,
   },
   argTypes: {
     children: {
