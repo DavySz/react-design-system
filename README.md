@@ -38,4 +38,4 @@ $ yarn
 $ yarn storybook
 ```
 
-<p align="center">Made with ❤️ by Davy de Souza</p>
+<p align="center">Made with 💙 by Davy de Souza</p>
