@@ -1,5 +1,3 @@
-# react-design-system
-
 <p align="center">
  <img src=".github/web.png" alt="web preview"/>
  <img src=".github/components.png" alt="components"/>
